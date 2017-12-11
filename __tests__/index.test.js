@@ -29,7 +29,7 @@ describe('server', () => {
   });
   it('should return json', (done) => {
     request(app)
-      .get('/invalid')
+      .get('/0')
       .then((res) => {
         expect(res.header['content-type'].includes('json')).toBeTruthy();
         done();

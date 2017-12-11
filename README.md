@@ -11,6 +11,7 @@ Timestamp Microservice API Project <img  src="https://travis-ci.org/erdembircan/
       <ul>3) If it does not contain a date or Unix timestamp, it returns null for those properties.</ul>
 </blockquote>
 
+<h3>Usage:</h3>
  <code>https://limitless-gorge-38874.herokuapp.com/December%2015,%202015</code>
     <br>
 <code>https://limitless-gorge-38874.herokuapp.com/1450137600</code>

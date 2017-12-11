@@ -29,7 +29,7 @@ app.get('/:timeKey', (req, res) => {
     cloneObj.unix = date.getTime() / 1000 - (isNaN(dateQuery) ? date.getTimezoneOffset() * 60 : 0);
 
     cloneObj.natural = `${Months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
-    res.send(cloneObj);
+    res.json(cloneObj);
   } else res.json(resJson);
 });
 
